@@ -1,0 +1,27 @@
+mtllib multi_material.mtl
+
+# Texture coordinates.
+vt 0 0 0
+vt 0 1 0
+vt 1 1 0
+vt 1 0 0
+
+# Triangle 1.
+v 0 0 0
+v 1 0 0
+v 0 1 0
+
+# Triangle 2.
+v 1 0 0
+v 1 1 0
+v 0 1 0
+
+# Object 1: Triangle 1 x Red Material
+o obj1
+usemtl red_mtl
+f 1/1 2/2 3/3
+
+# Object 2: Triangle 2 x Blue Material
+o obj2
+usemtl blue_mtl
+f 4/1 5/2 6/3
