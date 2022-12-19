@@ -328,8 +328,10 @@ class OBJTest(g.unittest.TestCase):
                             r.visual.material.glossiness)
 
     def test_multi_texture_roundtrip(self):
-        m = g.get_mesh("multi_material.obj")
+        m = g.get_mesh("multi_material.obj", force="scene")
         print(m)
+
+        # TODO(eric.cousineau): inspect stuff.
 
 
 def simple_load(text):
