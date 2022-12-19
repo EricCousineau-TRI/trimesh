@@ -327,6 +327,10 @@ class OBJTest(g.unittest.TestCase):
         assert g.np.isclose(m.visual.material.glossiness,
                             r.visual.material.glossiness)
 
+    def test_multi_texture_roundtrip(self):
+        m = g.get_mesh("multi_material.obj")
+        print(m)
+
 
 def simple_load(text):
     # we're going to load faces in a basic text way

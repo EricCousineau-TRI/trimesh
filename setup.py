@@ -68,7 +68,8 @@ requirements_test = set(['pytest',       # run all unit tests
                          'pytest-cov',   # coverage plugin
                          'pyinstrument',  # profile code
                          'coveralls',    # report coverage stats
-                         'ezdxf'])       # use as a validator for exports
+                         'ezdxf',        # use as a validator for exports
+                         'pillow'])
 
 # Python 2.7 and 3.4 support has been dropped from packages
 # version lock those packages here so install succeeds

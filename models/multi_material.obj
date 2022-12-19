@@ -1,5 +1,8 @@
 mtllib multi_material.mtl
 
+# WARNING: MeshLab 2022.02 doesn't show both textures for some reason.
+# However, Blender 3.1.2 shows both textures just fine.
+
 # Triangle 1.
 v 0 0 0
 v 1 0 0
