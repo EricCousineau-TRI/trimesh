@@ -1,13 +1,5 @@
 newmtl red_mtl
-Ka 0.40 0.40 0.40
-Kd 0.0 0.0 0.5
-Ks 0.40 0.40 0.40
-Ns 1.00
 map_Kd multi_material_red.png
 
 newmtl blue_mtl
-Ka 0.40 0.40 0.40
-Kd 1.0 1.0 1.0
-Ks 0.40 0.40 0.40
-Ns 1.00
 map_Kd multi_material_blue.png
